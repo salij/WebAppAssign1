@@ -1,0 +1,82 @@
+
+#topheader{
+	height: 170px;
+	background-color: #000080;
+	padding-bottom: 50px;
+}
+#topheader img{
+	height: 150px;
+	padding:20px;
+	float: left;
+}
+#topheader h1{
+	font-size: 24px;
+	color: #ffffff;	
+	text-shadow: 1px 1px #99CCFF;
+	padding-top: 65px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#topheader nav{
+	list-style-type: none;
+	position: relative;
+	right: 15px;
+	top: 50px;
+}
+#topheader li{
+	margin: 1px;
+	padding: 1px;
+	display: inline;
+	padding: .2em 1em;
+}
+#topheader a{
+	color: #f0f0ff;
+	font-weight: bold;
+	text-decoration: none;
+}
+#topheader a:hover{
+	color:#99CCFF;
+}
+.header{
+	margin: 10px;
+	border-style: solid;
+	border-color: #000080;
+	border-top: 0; 
+	border-width: 0 0 1px 1px;
+}
+.header h2{
+	color: #ffffff;
+	background-color: #000080;
+	margin-bottom: 0;
+	padding: .2em;
+	padding-left: .5em;
+}
+.body{
+	padding: .5em;
+	padding-left: 1em;
+	background-color: #D1D1FF;
+}
+.body a{
+	color: #000080;
+	font-weight: bold;
+}
+.body a:hover{
+	color: #304DBE;
+}
+table{
+	border-style: solid;
+	border-color: #000070;
+	border-width: 1px 1px 1px 1px;
+}
+.centered{
+	text-align: center;
+}
+.centered table{
+	margin: 0 auto;
+	text-align: left;
+}
+.centered table th{
+	font-size: 30px;
+	color:#ffffff;
+}
+
