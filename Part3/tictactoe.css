@@ -1,0 +1,39 @@
+.header{	
+	font-weight: bold;
+}
+.page{
+	background-color: rgba(147, 147, 147, 0.33);
+}
+.board{
+	font-size: 90px;
+	font-weight: bold;
+}
+.board table{
+	vertical-align: middle;
+	text-align: center;
+}
+td#cell1, td#cell2, td#cell3, td#cell4, td#cell5, td#cell6{	
+	border-bottom: 3px solid #675f69;
+}
+td#cell1, td#cell2, td#cell4, td#cell5, td#cell7, td#cell8{	
+	border-right: 3px solid #675F69;
+}
+td{
+	font-weight: 800;
+	text-shadow: 2px 2px #675f69;
+	width: 150px;
+	height: 150px;
+}
+h2{
+	background-color: #675f69;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-style: solid;
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+	text-shadow: 2px 2px #000000;
+	font-size: 40px;
+}

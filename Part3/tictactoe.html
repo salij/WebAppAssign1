@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="page">
+<link rel="stylesheet" type="text/css" href="tictactoe.css">
+<script type="text/javascript" src="tictactoe.js"></script>
+<font face="Arial" size="24">
+<center>
+<head>
+	<div class="header" width: 600px; width="600px;600px" style="width: 600px;">
+		<h2>TIC TAC TOE</h2>
+	</div>
+</head>
+<body>	
+	<div class="board">
+		<table id="board" cellspacing=1 class="board">
+			<tr>
+				<td id="cell1" onClick="play(1)"></td>
+				<td id="cell2" onClick="play(2)"></td>
+				<td id="cell3" onClick="play(3)"></td>
+			</tr>
+			<tr>
+				<td id="cell4" onClick="play(4)"></td>
+				<td id="cell5" onClick="play(5)"></td>
+				<td id="cell6" onClick="play(6)"></td>
+			</tr>
+			<tr>
+				<td id="cell7" onClick="play(7)"></td>
+				<td id="cell8" onClick="play(8)"></td>
+				<td id="cell9" onClick="play(9)"></td>
+			</tr>
+		</table>
+	</div>
+	<div width: 600px; width="600px;600px" style="width: 600px;">
+		<h2 id="msg">Player 1, click square to start</h2>
+	</div>
+	<button type="button" onClick="reset()">Reset</button>
+	</center>
+</body>
+</font>
+</html>
